@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'aqua' : '#2BE2A0'
+        
+      },
+      fontFamily : {
+        'handsofsean' : 'hands-of-sean',
+        'konnect' : 'konnect'
+      }
+    },
   },
   plugins: [],
 }

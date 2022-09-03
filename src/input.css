@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    color: #00004F;
+    overflow-x: hidden;
+    font-family: konnect, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: hands-of-sean;
+    src: url('./fonts/Hand_Of_Sean_Demo.ttf');
+}
+
+@font-face {
+    font-family: konnect;
+    src: url('./fonts/KonnectRegular.otf');
+}
+
+@font-face {
+    font-family: konnect;
+    font-weight: bold;
+    src: url('./fonts/KonnectBold.otf');
+}

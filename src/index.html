@@ -7,26 +7,29 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="text-center min-h-full">
+<body class="min-h-full text-center">
     <div id="root">
         <!--  HEADER   -->
         <header class="relative">
-            <nav class="flex justify-center md:justify-between items-center py-8 px-14">
+            <nav class="flex items-center justify-center py-8 md:justify-between px-14">
                 <!--  Hamburger menu for small screen sizes   -->
                 <img src="./assets/svg/hamburger-menu.svg" alt="hamburger menu navbar"
                     class="absolute left-4 md:hidden" />
                 <!--  Logo NAVBAR   -->
-                <img src="./assets/svg/logo-navbar.svg" alt="Logo navbar" />
+                <a href="#">
+                    <img src="./assets/svg/logo-navbar.svg" alt="Logo navbar" />
+                </a>
+
                 <div>
-                    <ul class="justify-end items-center font-semibold hidden md:flex ">
+                    <ul class="items-center justify-end hidden font-semibold md:flex ">
                         <li class="mr-8">
-                            <a href="/src">Community</a>
+                            <a href="#">Community</a>
                         </li>
                         <li class="mr-8">
-                            <a href="/src">Blog</a>
+                            <a href="#">Blog</a>
                         </li>
                         <button
-                            class="border-2 border-[#00e69b] rounded-lg px-5 py-3 bg-transparent font-extrabold text-[#00e69b]">
+                            class="px-5 py-3 font-extrabold bg-transparent border-2 rounded-lg border-aqua text-aqua">
                             Get early access
                         </button>
                     </ul>
@@ -39,7 +42,7 @@
                 <!-- Hero image small -->
                 <img src='./assets/img/hero-image-small.png' class="px-6 md:hidden" alt="logo" />
                 <!-- Hero image big -->
-                <img src='./assets/img/hero-image-big.png' class="px-6 hidden md:block" alt="logo" />
+                <img src='./assets/svg/hero-image-big.svg' class="hidden px-6 md:block" alt="logo" />
             </div>
             <p class="max-w-[580px] min-w-[343px] mx-auto px-4 md:text-xl">
                 <span class="font-bold">Weware means:</span> Easy to find knowledge,
@@ -52,14 +55,14 @@
                 <input
                     class="px-5 py-3.5 md:mr-4 w-full max-w-[320px] h-[50px] border-blue-900 border rounded-lg placeholder-blue-900 focus:outline-none focus:shadow-outline focus:border-blue-700"
                     name="email" type="email" placeholder="Your email address" />
-                <button class="bg-[#00e69b] min-w-fit px-5 py-3 rounded-lg font-bold text-white">
+                <button class="px-5 py-3 font-bold text-white rounded-lg bg-aqua min-w-fit">
                     Get early access
                 </button>
             </form>
         </div>
 
-        <div id="desktop-view" class="md:block hidden mt-36 px-4">
-            <img class="max-w-[990px] mx-auto w-full" src="./assets/img/middle-section-big.png"
+        <div id="desktop-view" class="hidden px-4 md:block mt-36">
+            <img class="max-w-[990px] mx-auto w-full" src="./assets/svg/middle-section-big.svg"
                 alt="Image middle section big" />
         </div>
 
@@ -69,7 +72,7 @@
                 src="./assets/img/middle-section-small.png" alt="Image middle section small" />
 
             <! Colocar fuente>
-                <div class="mt-20 text-left font-['Hand_Of_Sean'] relative px-4">
+                <div class="relative px-4 mt-20 text-left font-handsofsean">
                     <p class="ml-10">
                         <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow"
                             class="absolute left-4 md:hidden" />
@@ -89,6 +92,167 @@
                 </div>
         </div>
 
+        <!-- Partners -->
+        <h1 class="px-4 mt-24 text-xl font-bold md:text-3xl">
+            Distributed teams brought together
+        </h1>
+        <div class="flex mt-4 mx-auto justify-around max-h-[260px] max-w-[960px] flex-wrap items-center min-w-[300px] "
+            id="partners section">
+            <img class="max-w-[140px] mt-5 basis-1/2" src="./assets/img/luna.png" alt="Luna" />
+            <img class="max-w-[140px] mt-5 basis-1/2" src="./assets/img/bucket.png" alt="Bucket" />
+            <img class="max-w-[140px] mt-5 basis-1/2" src="./assets/img/mesh.png" alt="Mesh" />
+            <img class="max-w-[140px] mt-5 basis-1/2" src="./assets/img/leapcure.png" alt="Leapcure" />
+            <img class="max-w-[140px] mt-5 basis-1/2" src="./assets/img/betterworks.png" alt="Betterworks" />
+            <img class="max-w-[140px] mt-5 basis-1/2" src="./assets/img/hyperia.png" alt="Hyperia" />
+        </div>
+
+        <!-- middle section -->
+        <div class="max-w-[600px] mx-auto lg:text-xl">
+            <h1 class="mt-24 text-xl font-bold md:text-3xl">
+                Engage your remote team
+            </h1>
+            <div class="px-4 mt-10 text-center">
+                <p>
+                    Remote work is challenging when knowledge is spread across slack,
+                    emails, documents and spreadsheets. It is especially challenging
+                    when trying to find information and engage with your remote team.
+                </p>
+                <p class="mt-8 mb-4">
+                    <span class="font-bold">Weware solves all that.</span> Create your
+                    team directory with profiles, share company announcements, create
+                    knowledge wiki where you share important information and
+                    processes. Best of all, weware is also a place to engage and
+                    recognize effort.
+                </p>
+            </div>
+        </div>
+
+        <div
+            class="md:text-xl lg:grid mx-auto px-6 justify-items-center items-center grid-rows-4 grid-cols-2 mt-24 text-center lg:text-left max-w-[990px]">
+            
+            <!-- announcement -->
+            
+            <div class="relative mx-auto w-fit">
+                <img src="./assets/img/announcements.png"
+                    class="lg:max-w-[450px] mx-auto drop-shadow-[0_50px_80px_rgba(0,42,106,0.1)] hidden md:block"
+                    alt="" />
+                <img src="./assets/svg/small-announcement-image.svg"
+                    class="lg:max-w-[450px] mx-auto drop-shadow-[0_50px_80px_rgba(0,42,106,0.1)] md:hidden" alt="" />
+                <img src="./assets/svg/dotted-arrow-up.svg" alt="rounded arrow"
+                    class="absolute hidden ml-5 translate-x-[-0.8rem] lg:block left-3/4 top-1/2 -z-10" />
+                <img src="./assets/svg/circle-arrow-dotted.svg" alt="rounded arrow"
+                    class="absolute right-0 lg:block top-1/2" />
+            </div>
+            <div class="lg:max-w-[365px] relative justify-self-end">
+                <h2 class="mt-5 font-bold">Announcements</h2>
+                <p class="mt-7">
+                    Your entire team in one place, with Engage your team with company
+                    wide announcements that entice engagement. The team homepage
+                    reveals everything going on with your team.
+                </p>
+
+                <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                    class="hidden lg:block absolute top-0 left-[-40px]" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.7431 0C19.7917 3.90452 20.625 8.26633 23.8194 11.4673C26.9444 14.598 31.1806 15.5126 35 17.4472C31.1806 19.5578 26.875 20.3668 23.7153 23.603C20.625 26.804 19.7222 31.0955 17.7431 35C15.7292 31.201 14.8958 26.8392 11.8056 23.6382C8.64583 20.402 4.34028 19.5578 0 17.4824C4.30556 15.407 8.64583 14.5628 11.7708 11.3618C14.8611 8.1608 15.7639 3.90452 17.7431 0Z"
+                        fill="#2BE2A0" />
+                </svg>
+            </div>
+            
+            <!-- wiki -->
+            <img class="mt-24 mx-auto col-start-2 lg:max-w-[456px]" src="./assets/img/wiki.png" alt="" />
+            <div class="relative lg:max-w-[365px] row-start-2">
+                <h2 class="mt-12 font-bold">Wiki</h2>
+                <p class="mt-7">
+                    Create and share knowledge with your team. Whether it be company
+                    processes, presentations, content your team has created, anything!
+                    Find anything directly from Slack too.
+                </p>
+
+                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 lg:w-auto absolute -z-10 right-5 top-[-20px] lg:top-0 lg:right-[-615px]">
+                    <path
+                        d="M17.7431 0C19.7917 3.90452 20.625 8.26633 23.8194 11.4673C26.9444 14.598 31.1806 15.5126 35 17.4472C31.1806 19.5578 26.875 20.3668 23.7153 23.603C20.625 26.804 19.7222 31.0955 17.7431 35C15.7292 31.201 14.8958 26.8392 11.8056 23.6382C8.64583 20.402 4.34028 19.5578 0 17.4824C4.30556 15.407 8.64583 14.5628 11.7708 11.3618C14.8611 8.1608 15.7639 3.90452 17.7431 0Z"
+                        fill="#8642E1" />
+                </svg>
+            </div>
+            
+            <!-- team directory -->
+            <div class="relative mx-auto w-fit">
+                <img class="mt-24 mx-auto lg:max-w-[450px]" src="./assets/img/team-directory.png" alt="" />
+            </div>
+            <div class="relative lg:max-w-[365px] justify-self-end">
+
+                <h2 class="mt-12 font-bold">Team directory</h2>
+                <p class="mt-7">
+                    Your entire team in one place, with profile information, history,
+                    notes and more. You no longer need a clunky separate HR app.
+                </p>
+                <svg width="35" height="35" class="absolute w-5 lg:w-auto -z-10 top-[-20px] right-0 lg:left-[-615px]"
+                    viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.7431 0C19.7917 3.90452 20.625 8.26633 23.8194 11.4673C26.9444 14.598 31.1806 15.5126 35 17.4472C31.1806 19.5578 26.875 20.3668 23.7153 23.603C20.625 26.804 19.7222 31.0955 17.7431 35C15.7292 31.201 14.8958 26.8392 11.8056 23.6382C8.64583 20.402 4.34028 19.5578 0 17.4824C4.30556 15.407 8.64583 14.5628 11.7708 11.3618C14.8611 8.1608 15.7639 3.90452 17.7431 0Z"
+                        fill="#FF6B08" />
+                </svg>
+                <img src="./assets/svg/dotted-arrow-down.svg" alt="rounded arrow"
+                    class="absolute hidden lg:block -z-10 top-[-196px] left-[-190px]" />
+
+            </div>
+            <img class="mt-24 mx-auto lg:max-w-[450px]" src="./assets/img/recognition.png" alt="" />
+            
+            <!-- recognition -->
+            <div class="relative justify-self-start lg:max-w-[365px] row-start-4">
+                <h2 class="mt-12 font-bold">Recognition</h2>
+                <p class="mt-5">
+                    Anyone can thank, recognize co workers for their effort. The
+                    activity feeds reveal all the great things happening on your team.
+                </p>
+                <svg width="35" class="hidden lg:block absolute -z-10 top-[-60px] right-[-415px]" height="35"
+                    viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.7431 0C19.7917 3.90452 20.625 8.26633 23.8194 11.4673C26.9444 14.598 31.1806 15.5126 35 17.4472C31.1806 19.5578 26.875 20.3668 23.7153 23.603C20.625 26.804 19.7222 31.0955 17.7431 35C15.7292 31.201 14.8958 26.8392 11.8056 23.6382C8.64583 20.402 4.34028 19.5578 0 17.4824C4.30556 15.407 8.64583 14.5628 11.7708 11.3618C14.8611 8.1608 15.7639 3.90452 17.7431 0Z"
+                        fill="#FBDDFF" />
+                </svg>
+            </div>
+        </div>
+        <!-- quote -->
+        <div class="px-8 md:p-0 mt-20 max-w-[660px] mx-auto">
+            <blockquote class="text-[22px] md:text-[28px] leading-8 md:leading-10" cite="#">
+                “We've had less confusion with task responsibilities and deadlines,
+                which has increased productivity and <br class="md:hidden" />
+                efficiency.”
+            </blockquote>
+            <div class="flex items-center justify-center gap-4 mt-6">
+                <img class="w-[50px] h-[50px] rounded-full" src="./assets/img/author.png" alt="" />
+                <span class="md:text-[18px]">John Doe, Qrvey.</span>
+            </div>
+        </div>
+
+        <!-- waitlist -->
+        <div
+            class="pt-8 px-4 md:p-0 mt-20 text-center md:text-left mx-auto max-w-[343px] md:max-w-[1152px] min-h-[500px] md:min-h-full text-white bg-cover bg-no-repeat bg-[url('./assets/img/waitlist.png')] md:rounded-3xl md:bg-[url('./assets/img/waiting-list-big.png')] md:flex justify-end">
+            <div class="md:basis-1/2 md:pl-6 md:pr-4 lg:pr-16 lg:pt-10">
+                <div class="font-bold text-[22px] lg:text-3xl">
+                    <p class="md:leading-[48px]">
+                        Interested in early access?
+                        <br />
+                        Join the waitlist
+                    </p>
+                </div>
+                <p class="md:mt-4 md:text-lg">
+                    <span>(releasing Q1 2022)</span>
+                </p>
+                <form
+                    class="mx-auto flex justify-between md:justify-center items-center flex-col md:flex-row max-w-[600px] min-w-[320px] h-[129px] mt-10 md:mt-4 lg:mt-10">
+                    <input
+                        class="px-5 py-3.5 md:mr-4 max-w-[320px] h-[50px] border-blue-900 border rounded-lg placeholder-blue-900 focus:outline-none focus:shadow-outline focus:border-blue-700"
+                        name="email" type="email" placeholder="Your email address" />
+                    <button class="px-5 py-3 font-bold text-white rounded-lg bg-aqua min-w-fit">
+                        Get early access
+                    </button>
+                </form>
+            </div>
+        </div>
 
 
 
@@ -98,6 +262,12 @@
 
 
 
+
+
+
+
+
+        
     </div>
 </body>
 
