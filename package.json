@@ -1,0 +1,27 @@
+{
+  "name": "ideaware",
+  "version": "1.0.0",
+  "description": "Prueba técnica para Ideaware frontend developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhadechni/prueba-tecnica-ideaware.git"
+  },
+  "keywords": [
+    "css",
+    "tailwind",
+    "html"
+  ],
+  "author": "jhadechni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhadechni/prueba-tecnica-ideaware/issues"
+  },
+  "homepage": "https://github.com/jhadechni/prueba-tecnica-ideaware#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
