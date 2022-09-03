@@ -1,13 +1,37 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+
+<body class="text-center min-h-full">
+    <div id="root">
+        <!--  HEADER   -->
+        <header class="relative">
+            <nav class="flex justify-center md:justify-between items-center py-8 px-14">
+                <!--  Hamburger menu for small screen sizes   -->
+                <img src="./assets/svg/hamburger-menu.svg" alt="hamburger menu navbar" class="absolute left-4 md:hidden" />
+                <!--  Logo NAVBAR   -->
+                <img src="./assets/svg/logo-navbar.svg" alt="Logo navbar" />
+                <div>
+                    <ul class="justify-end items-center font-semibold hidden md:flex ">
+                        <li class="mr-8">
+                            <a href="/src">Community</a>
+                        </li>
+                        <li class="mr-8">
+                            <a href="/src">Blog</a>
+                        </li>
+                        <button
+                            class="border-2 border-[#00e69b] rounded-lg px-5 py-3 bg-transparent font-extrabold text-[#00e69b]">
+                            Get early access
+                        </button>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
 </body>
+
 </html>
