@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body class="min-h-full text-center">
@@ -67,35 +68,31 @@
         </div>
 
         <div id="mobile-view" class="md:hidden">
-
             <img class="w-[343px] h-[202px] mt-24 mx-auto rounded-lg border-neutral-200"
                 src="./assets/img/middle-section-small.png" alt="Image middle section small" />
 
-            <! Colocar fuente>
-                <div class="relative px-4 mt-20 text-left font-handsofsean">
-                    <p class="ml-10">
-                        <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow"
-                            class="absolute left-4 md:hidden" />
-                        Add topics, such as Design, Marketing, HR to organize your updates
-                        into groups.
-                    </p>
-                    <p class="mt-8 ml-10">
-                        <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow"
-                            class="absolute left-4 md:hidden" />
-                        Activate leaderboards for some friendly competition!
-                    </p>
-                    <p class="mt-8 ml-10">
-                        <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow"
-                            class="absolute left-4 md:hidden" />
-                        Add an update or some news for your team
-                    </p>
-                </div>
+            <div class="relative px-4 mt-20 text-left font-handsofsean">
+                <p class="ml-10">
+                    <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow" class="absolute left-4 md:hidden" />
+                    Add topics, such as Design, Marketing, HR to organize your updates
+                    into groups.
+                </p>
+                <p class="mt-8 ml-10">
+                    <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow" class="absolute left-4 md:hidden" />
+                    Activate leaderboards for some friendly competition!
+                </p>
+                <p class="mt-8 ml-10">
+                    <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow" class="absolute left-4 md:hidden" />
+                    Add an update or some news for your team
+                </p>
+            </div>
         </div>
 
         <!-- Partners -->
-        <h1 class="px-4 mt-24 text-xl font-bold md:text-3xl">
+        <h1 id="partners" class="px-4 mt-24 text-xl font-bold md:text-3xl">
             Distributed teams brought together
         </h1>
+
         <div class="flex mt-4 mx-auto justify-around max-h-[260px] max-w-[960px] flex-wrap items-center min-w-[300px] "
             id="partners section">
             <img class="max-w-[140px] mt-5 basis-1/2" src="./assets/img/luna.png" alt="Luna" />
@@ -127,11 +124,11 @@
             </div>
         </div>
 
-        <div
+        <div id="middle section"
             class="md:text-xl lg:grid mx-auto px-6 justify-items-center items-center grid-rows-4 grid-cols-2 mt-24 text-center lg:text-left max-w-[990px]">
-            
+
             <!-- announcement -->
-            
+
             <div class="relative mx-auto w-fit">
                 <img src="./assets/img/announcements.png"
                     class="lg:max-w-[450px] mx-auto drop-shadow-[0_50px_80px_rgba(0,42,106,0.1)] hidden md:block"
@@ -158,7 +155,7 @@
                         fill="#2BE2A0" />
                 </svg>
             </div>
-            
+
             <!-- wiki -->
             <img class="mt-24 mx-auto col-start-2 lg:max-w-[456px]" src="./assets/img/wiki.png" alt="" />
             <div class="relative lg:max-w-[365px] row-start-2">
@@ -176,7 +173,7 @@
                         fill="#8642E1" />
                 </svg>
             </div>
-            
+
             <!-- team directory -->
             <div class="relative mx-auto w-fit">
                 <img class="mt-24 mx-auto lg:max-w-[450px]" src="./assets/img/team-directory.png" alt="" />
@@ -199,9 +196,8 @@
 
             </div>
             <img class="mt-24 mx-auto lg:max-w-[450px]" src="./assets/img/recognition.png" alt="" />
-            
             <!-- recognition -->
-            <div class="relative justify-self-start lg:max-w-[365px] row-start-4">
+            <div id="recognition" class="relative justify-self-start lg:max-w-[365px] row-start-4">
                 <h2 class="mt-12 font-bold">Recognition</h2>
                 <p class="mt-5">
                     Anyone can thank, recognize co workers for their effort. The
@@ -216,7 +212,7 @@
             </div>
         </div>
         <!-- quote -->
-        <div class="px-8 md:p-0 mt-20 max-w-[660px] mx-auto">
+        <div id="quote" class="px-8 md:p-0 mt-20 max-w-[660px] mx-auto">
             <blockquote class="text-[22px] md:text-[28px] leading-8 md:leading-10" cite="#">
                 “We've had less confusion with task responsibilities and deadlines,
                 which has increased productivity and <br class="md:hidden" />
@@ -229,7 +225,7 @@
         </div>
 
         <!-- waitlist -->
-        <div
+        <div id="waitlist"
             class="pt-8 px-4 md:p-0 mt-20 text-center md:text-left mx-auto max-w-[343px] md:max-w-[1152px] min-h-[500px] md:min-h-full text-white bg-cover bg-no-repeat bg-[url('./assets/img/waitlist.png')] md:rounded-3xl md:bg-[url('./assets/img/waiting-list-big.png')] md:flex justify-end">
             <div class="md:basis-1/2 md:pl-6 md:pr-4 lg:pr-16 lg:pt-10">
                 <div class="font-bold text-[22px] lg:text-3xl">
@@ -245,7 +241,7 @@
                 <form
                     class="mx-auto flex justify-between md:justify-center items-center flex-col md:flex-row max-w-[600px] min-w-[320px] h-[129px] mt-10 md:mt-4 lg:mt-10">
                     <input
-                        class="px-5 py-3.5 md:mr-4 max-w-[320px] h-[50px] border-blue-900 border rounded-lg placeholder-blue-900 focus:outline-none focus:shadow-outline focus:border-blue-700"
+                        class="px-5 py-3.5 md:mr-4 max-w-[320px] h-[50px] border-blue-900 border rounded-lg placeholder-blue-900 focus:outline-none focus:shadow-outline focus:border-blue-700 text-black"
                         name="email" type="email" placeholder="Your email address" />
                     <button class="px-5 py-3 font-bold text-white rounded-lg bg-aqua min-w-fit">
                         Get early access
@@ -255,20 +251,181 @@
         </div>
 
 
+        <!-- FAQ section-->
+        <div class="lg:text-xl">
+            <h1 class="mt-20 text-xl font-bold md:text-3xl">FAQ</h1>
+            <div class="md:max-w-[954px] mx-auto grid grid-cols-1 divide-y">
+
+                <div id="1" class="relative flex items-center justify-center px-4 mt-10 overflow-hidden text-left">
+                    <div class="w-full ">
+                        <input type="checkbox" class="absolute w-full h-12 opacity-0 cursor-pointer z-5 peer" />
+                        <i
+                            class="material-icons absolute top-[10px] right-4 peer-checked:rotate-180 transition-transform duration-100 text-aqua -z-10">expand_more</i>
+                        <div class="flex items-center w-full h-12 pl-5">
+                            <h1 class="font-bold">Lorem ipsum dolor sit amet?</h1>
+                        </div>
+
+                        <div class="overflow-hidden transition-all duration-200 max-h-0 peer-checked:max-h-full">
+                            <div class="p-4">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non bibendum accumsan lacus
+                                    justo venenatis morbi aliquet quisque sapien. Scelerisque habitant felis sit mi.
+                                    Justo gravida leo non bibendum accumsan lacus justo venenatis morbi aliquet quisque
+                                    sapien.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="2" class="relative flex items-center justify-center px-4 mt-10 overflow-hidden text-left">
+                    <div class="w-full ">
+                        <input type="checkbox" class="absolute w-full h-12 opacity-0 cursor-pointer z-5 peer" />
+                        <i
+                            class="material-icons absolute top-[10px] right-4 peer-checked:rotate-180 transition-transform duration-100 text-aqua -z-10">expand_more</i>
+                        <div class="flex items-center w-full h-12 pl-5">
+                            <h1 class="font-bold">Lorem ipsum dolor sit amet?</h1>
+                        </div>
+
+                        <div class="overflow-hidden transition-all duration-200 max-h-0 peer-checked:max-h-full">
+                            <div class="p-4">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non bibendum accumsan lacus
+                                    justo venenatis morbi aliquet quisque sapien. Scelerisque habitant felis sit mi.
+                                    Justo gravida leo non bibendum accumsan lacus justo venenatis morbi aliquet quisque
+                                    sapien.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="3" class="relative flex items-center justify-center px-4 mt-10 overflow-hidden text-left">
+                    <div class="w-full ">
+                        <input type="checkbox" class="absolute w-full h-12 opacity-0 cursor-pointer z-5 peer" />
+                        <i
+                            class="material-icons absolute top-[10px] right-4 peer-checked:rotate-180 transition-transform duration-100 text-aqua -z-10">expand_more</i>
+                        <div class="flex items-center w-full h-12 pl-5">
+                            <h1 class="font-bold">Lorem ipsum dolor sit amet?</h1>
+                        </div>
+
+                        <div class="overflow-hidden transition-all duration-200 max-h-0 peer-checked:max-h-full">
+                            <div class="p-4 ">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non bibendum accumsan lacus
+                                    justo venenatis morbi aliquet quisque sapien. Scelerisque habitant felis sit mi.
+                                    Justo gravida leo non bibendum accumsan lacus justo venenatis morbi aliquet quisque
+                                    sapien.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="4" class="relative flex items-center justify-center px-4 mt-10 overflow-hidden text-left">
+                    <div class="w-full ">
+                        <input type="checkbox" class="absolute w-full h-12 opacity-0 cursor-pointer z-5 peer" />
+                        <i
+                            class="material-icons absolute top-[10px] right-4 peer-checked:rotate-180 transition-transform duration-100 text-aqua -z-10">expand_more</i>
+                        <div class="flex items-center w-full h-12 pl-5">
+                            <h1 class="font-bold">Lorem ipsum dolor sit amet?</h1>
+                        </div>
+
+                        <div class="overflow-hidden transition-all duration-200 max-h-0 peer-checked:max-h-full">
+                            <div class="p-4">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non bibendum accumsan lacus
+                                    justo venenatis morbi aliquet quisque sapien. Scelerisque habitant felis sit mi.
+                                    Justo gravida leo non bibendum accumsan lacus justo venenatis morbi aliquet quisque
+                                    sapien.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="5" class="relative flex items-center justify-center px-4 mt-10 overflow-hidden text-left">
+                    <div class="w-full ">
+                        <input type="checkbox" class="absolute w-full h-12 opacity-0 cursor-pointer z-5 peer" />
+                        <i
+                            class="material-icons absolute top-[10px] right-4 peer-checked:rotate-180 transition-transform duration-100 text-aqua -z-10">expand_more</i>
+                        <div class="flex items-center w-full h-12 pl-5">
+                            <h1 class="font-bold">Lorem ipsum dolor sit amet?</h1>
+                        </div>
+
+                        <div class="overflow-hidden transition-all duration-200 max-h-0 peer-checked:max-h-full">
+                            <div class="p-4">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non bibendum accumsan lacus
+                                    justo venenatis morbi aliquet quisque sapien. Scelerisque habitant felis sit mi.
+                                    Justo gravida leo non bibendum accumsan lacus justo venenatis morbi aliquet quisque
+                                    sapien.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="6" class="relative flex items-center justify-center px-4 mt-10 overflow-hidden text-left">
+                    <div class="w-full ">
+                        <input type="checkbox" class="absolute w-full h-12 opacity-0 cursor-pointer z-5 peer" />
+                        <i
+                            class="material-icons absolute top-[10px] right-4 peer-checked:rotate-180 transition-transform duration-100 text-aqua -z-10">expand_more</i>
+                        <div class="flex items-center w-full h-12 pl-5">
+                            <h1 class="font-bold">Lorem ipsum dolor sit amet?</h1>
+                        </div>
+
+                        <div class="overflow-hidden transition-all duration-200 max-h-0 peer-checked:max-h-full">
+                            <div class="p-4">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non bibendum accumsan lacus
+                                    justo venenatis morbi aliquet quisque sapien. Scelerisque habitant felis sit mi.
+                                    Justo gravida leo non bibendum accumsan lacus justo venenatis morbi aliquet quisque
+                                    sapien.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
 
 
+            <!-- singup -->
+            <div
+                class="lg:text-xl flex flex-col md:flex-row mx-auto md:text-left mt-24 items-center md:items-end md:flex md:justify-around max-w-[954px]">
+                <div class="max-w-[384px]">
+                    <p class="font-bold leading-6">Sign up for product updates:</p>
+                    <p class="mt-7">
+                        Ullamcorper orci, eu venenatis ac euismod vel purus tortor rhoncus
+                        mauri.
+                    </p>
+                </div>
+
+                <form class="mx-auto max-w-[600px] min-w-[320px] h-auto hidden md:block md:m-0">
+                    <input
+                        class="px-5 py-3.5 md:mr-4 max-w-[320px] h-[50px] border-blue-900 border rounded-lg placeholder-blue-900 focus:outline-none focus:shadow-outline focus:border-blue-700"
+                        name="email" type="email" placeholder="Your email address" />
+                    <button class="px-4 py-3 font-bold text-white rounded-lg bg-aqua">
+                        Subscribe
+                    </button>
+                </form>
+                <form
+                    class="mx-auto flex justify-between md:justify-center items-center flex-col md:flex-row max-w-[600px] min-w-[320px] h-[129px] md:hidden m-7">
+                    <input
+                        class="px-5 py-3.5 md:mr-4 max-w-[320px] h-[50px] border-blue-900 border rounded-lg placeholder-blue-900 focus:outline-none focus:shadow-outline focus:border-blue-700"
+                        name="email" type="email" placeholder="Your email address" />
+                    <button class="bg-[#00e69b] min-w-fit px-5 py-3 rounded-lg font-bold text-white">
+                        Get early access
+                    </button>
+                </form>
+            </div>
+            
 
 
+        </div>
 
-
-
-
-
-
-
-        
-    </div>
 </body>
 
 </html>
