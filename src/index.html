@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,8 @@
         <header class="relative">
             <nav class="flex justify-center md:justify-between items-center py-8 px-14">
                 <!--  Hamburger menu for small screen sizes   -->
-                <img src="./assets/svg/hamburger-menu.svg" alt="hamburger menu navbar" class="absolute left-4 md:hidden" />
+                <img src="./assets/svg/hamburger-menu.svg" alt="hamburger menu navbar"
+                    class="absolute left-4 md:hidden" />
                 <!--  Logo NAVBAR   -->
                 <img src="./assets/svg/logo-navbar.svg" alt="Logo navbar" />
                 <div>
@@ -31,6 +33,71 @@
                 </div>
             </nav>
         </header>
+
+        <div class="md:max-w-[950px] mx-auto">
+            <div class="mx-auto mt-12 mb-[-50px] flex justify-center">
+                <!-- Hero image small -->
+                <img src='./assets/img/hero-image-small.png' class="px-6 md:hidden" alt="logo" />
+                <!-- Hero image big -->
+                <img src='./assets/img/hero-image-big.png' class="px-6 hidden md:block" alt="logo" />
+            </div>
+            <p class="max-w-[580px] min-w-[343px] mx-auto px-4 md:text-xl">
+                <span class="font-bold">Weware means:</span> Easy to find knowledge,
+                content and proceses. Announcements, team engagement, recognition and
+                profiles. &#128588;
+            </p>
+            <!-- Email Form -->
+            <form
+                class="mx-auto flex justify-between md:justify-center items-center flex-col md:flex-row max-w-[600px] min-w-[320px] h-[129px] mt-12">
+                <input
+                    class="px-5 py-3.5 md:mr-4 w-full max-w-[320px] h-[50px] border-blue-900 border rounded-lg placeholder-blue-900 focus:outline-none focus:shadow-outline focus:border-blue-700"
+                    name="email" type="email" placeholder="Your email address" />
+                <button class="bg-[#00e69b] min-w-fit px-5 py-3 rounded-lg font-bold text-white">
+                    Get early access
+                </button>
+            </form>
+        </div>
+
+        <div id="desktop-view" class="md:block hidden mt-36 px-4">
+            <img class="max-w-[990px] mx-auto w-full" src="./assets/img/middle-section-big.png"
+                alt="Image middle section big" />
+        </div>
+
+        <div id="mobile-view" class="md:hidden">
+
+            <img class="w-[343px] h-[202px] mt-24 mx-auto rounded-lg border-neutral-200"
+                src="./assets/img/middle-section-small.png" alt="Image middle section small" />
+
+            <! Colocar fuente>
+                <div class="mt-20 text-left font-['Hand_Of_Sean'] relative px-4">
+                    <p class="ml-10">
+                        <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow"
+                            class="absolute left-4 md:hidden" />
+                        Add topics, such as Design, Marketing, HR to organize your updates
+                        into groups.
+                    </p>
+                    <p class="mt-8 ml-10">
+                        <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow"
+                            class="absolute left-4 md:hidden" />
+                        Activate leaderboards for some friendly competition!
+                    </p>
+                    <p class="mt-8 ml-10">
+                        <img src="./assets/svg/rounded-arrow.svg" alt="rounded arrow"
+                            class="absolute left-4 md:hidden" />
+                        Add an update or some news for your team
+                    </p>
+                </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
     </div>
 </body>
 
