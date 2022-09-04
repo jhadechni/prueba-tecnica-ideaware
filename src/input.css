@@ -9,9 +9,10 @@ html {
 body {
     margin: 0;
     height: 100%;
+    background-color: #fdfcfa;
     color: #00004F;
     overflow-x: hidden;
-    font-family: nunito, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    font-family: konnect, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
         "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
         sans-serif;
 }
