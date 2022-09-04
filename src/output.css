@@ -644,6 +644,11 @@ video {
   margin-right: auto;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .mr-8 {
   margin-right: 2rem;
 }
@@ -700,20 +705,16 @@ video {
   margin-top: 1.75rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 
-.mt-\[8rem\] {
-  margin-top: 8rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
-.mr-6 {
-  margin-right: 1.5rem;
+.mt-\[8rem\] {
+  margin-top: 8rem;
 }
 
 .mb-9 {
@@ -726,10 +727,6 @@ video {
 
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .flex {
@@ -758,14 +755,6 @@ video {
 
 .h-12 {
   height: 3rem;
-}
-
-.h-\[90px\] {
-  height: 90px;
-}
-
-.h-\[10px\] {
-  height: 10px;
 }
 
 .max-h-\[260px\] {
@@ -806,14 +795,8 @@ video {
   width: 50px;
 }
 
-.w-max {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.min-w-\[323px\] {
-  min-width: 323px;
+.min-w-\[400px\] {
+  min-width: 400px;
 }
 
 .min-w-\[320px\] {
@@ -830,16 +813,8 @@ video {
   min-width: 300px;
 }
 
-.min-w-\[333px\] {
-  min-width: 333px;
-}
-
-.min-w-\[400px\] {
-  min-width: 400px;
-}
-
-.max-w-\[520px\] {
-  max-width: 520px;
+.max-w-\[550px\] {
+  max-width: 550px;
 }
 
 .max-w-\[600px\] {
@@ -868,22 +843,6 @@ video {
 
 .max-w-\[343px\] {
   max-width: 343px;
-}
-
-.max-w-\[15rem\] {
-  max-width: 15rem;
-}
-
-.max-w-\[540px\] {
-  max-width: 540px;
-}
-
-.max-w-\[550px\] {
-  max-width: 550px;
-}
-
-.max-w-\[17rem\] {
-  max-width: 17rem;
 }
 
 .max-w-\[16rem\] {
@@ -1080,19 +1039,14 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-3\.5 {
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.py-3\.5 {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
 }
 
 .px-10 {
@@ -1103,16 +1057,6 @@ video {
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .pr-7 {
@@ -1155,11 +1099,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-semibold {
@@ -1245,7 +1184,6 @@ body {
   height: 100%;
   background-color: #fdfcfa;
   color: #00004F;
-  overflow-x: hidden;
   font-family: konnect, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
         "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
         sans-serif;
