@@ -1184,7 +1184,7 @@ body {
   height: 100%;
   background-color: #fdfcfa;
   color: #00004F;
-  font-family: konnect, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: konnect, BlinkMacSystemFont, "Segoe UI", "Oxygen",
         "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
         sans-serif;
 }
@@ -1294,6 +1294,16 @@ body {
     margin: 0px;
   }
 
+  .md\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .md\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
   .md\:mr-4 {
     margin-right: 1rem;
   }
@@ -1356,6 +1366,10 @@ body {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:gap-7 {
+    gap: 1.75rem;
   }
 
   .md\:gap-10 {
