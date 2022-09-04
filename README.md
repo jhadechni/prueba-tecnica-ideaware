@@ -5,8 +5,6 @@
 
 ## Installation
 
-## Install
-
 Open your terminal and type in:
 
 SSH Method
@@ -30,12 +28,13 @@ In order to see the web page you'll need to install the Live Server extension fo
 prueba-tecnica-ideaware
 ├── src
 │   ├── index.html
-│   ├── input.css
 │   ├── output.css 
 │   ├── assets
 │   │   └── img
 │   │   └── svg
 │   ├── fonts
+│   └── styles
+│       └──input.css
 ├── .DS_Store
 ├── .gitignore
 ├── README.md
@@ -45,7 +44,7 @@ prueba-tecnica-ideaware
 ```
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/699032200913616916/1015803364619071518/Screen_Shot_2022-09-03_at_8.59.03_PM.png)
+![App Screenshot](https://cdn.discordapp.com/attachments/699032200913616916/1016109662665457765/Screen_Shot_2022-09-04_at_5.16.53_PM.png)
 
 
 Code with 💙 by [@jhadechni](https://github.com/jhadechni)
