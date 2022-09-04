@@ -49,10 +49,10 @@ body {
 
 /* Flip on the X axis */
 .flip-horizontal {
-    --transform-scale-x: -1;
+    transform: scaleX(-1);
 }
 
 /* Flip on the Y axis */
 .flip-vertical {
-    --transform-scale-y: -1;
+    transform: scaleY(-1);
 }
