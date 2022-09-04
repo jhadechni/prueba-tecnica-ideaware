@@ -761,6 +761,18 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.-ml-1 {
+  margin-left: -0.25rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -1495,6 +1507,10 @@ body {
 
   .md\:pr-4 {
     padding-right: 1rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .md\:text-left {

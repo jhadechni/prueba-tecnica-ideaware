@@ -62,12 +62,12 @@
             </form>
         </div>
 
-        <div id="desktop-view" class="hidden px-4 md:block mt-36">
+        <div class="hidden px-4 md:block mt-36">
             <img class="max-w-[990px] mx-auto w-full" src="./assets/svg/middle-section-big.svg"
                 alt="Image middle section big" />
         </div>
 
-        <div id="mobile-view" class="md:hidden">
+        <div class="md:hidden">
             <img class="w-[343px] h-[202px] mt-24 mx-auto rounded-lg border-neutral-200"
                 src="./assets/img/middle-section-small.png" alt="Image middle section small" />
 
@@ -93,7 +93,7 @@
             Distributed teams brought together
         </h1>
 
-        <div class="flex mt-4 mx-auto justify-around max-h-[260px] max-w-[960px] flex-wrap items-center min-w-[300px] "
+        <div class="flex mt-4 mx-auto justify-around max-h-[260px] max-w-[960px] flex-wrap items-center min-w-[300px]"
             id="partners section">
             <img class="max-w-[140px] mt-5 basis-1/2" src="./assets/img/luna.png" alt="Luna" />
             <img class="max-w-[140px] mt-5 basis-1/2" src="./assets/img/bucket.png" alt="Bucket" />
@@ -104,7 +104,7 @@
         </div>
 
         <!-- middle section -->
-        <div class="max-w-[600px] mx-auto lg:text-xl">
+        <section id="middle section" class="max-w-[600px] mx-auto lg:text-xl">
             <h1 class="mt-24 text-xl font-bold md:text-3xl">
                 Engage your remote team
             </h1>
@@ -122,9 +122,9 @@
                     recognize effort.
                 </p>
             </div>
-        </div>
+        </section>
 
-        <div id="middle section"
+        <section id="middle section"
             class="md:text-xl lg:grid mx-auto px-6 justify-items-center items-center grid-rows-4 grid-cols-2 mt-24 text-center lg:text-left max-w-[990px]">
 
             <!-- announcement -->
@@ -210,9 +210,10 @@
                         fill="#FBDDFF" />
                 </svg>
             </div>
-        </div>
+        </section>
+
         <!-- quote -->
-        <div id="quote" class="px-8 md:p-0 mt-20 max-w-[660px] mx-auto">
+        <section id="quote" class="px-8 md:p-0 mt-20 max-w-[660px] mx-auto">
             <blockquote class="text-[22px] md:text-[28px] leading-8 md:leading-10" cite="#">
                 “We've had less confusion with task responsibilities and deadlines,
                 which has increased productivity and <br class="md:hidden" />
@@ -222,10 +223,10 @@
                 <img class="w-[50px] h-[50px] rounded-full" src="./assets/img/author.png" alt="" />
                 <span class="md:text-[18px]">John Doe, Qrvey.</span>
             </div>
-        </div>
+        </section>
 
         <!-- waitlist -->
-        <div id="waitlist"
+        <section id="waitlist"
             class="pt-8 px-4 md:p-0 mt-20 text-center md:text-left mx-auto max-w-[343px] md:max-w-[1152px] min-h-[500px] md:min-h-full text-white bg-cover bg-no-repeat bg-[url('./assets/img/waitlist.png')] md:rounded-3xl md:bg-[url('./assets/img/waiting-list-big.png')] md:flex justify-end">
             <div class="md:basis-1/2 md:pl-6 md:pr-4 lg:pr-16 lg:pt-10">
                 <div class="font-bold text-[22px] lg:text-3xl">
@@ -248,11 +249,10 @@
                     </button>
                 </form>
             </div>
-        </div>
-
+        </section>
 
         <!-- FAQ section-->
-        <div class="mb-10">
+        <section class="mb-10">
             <h1 class="mt-20 text-xl font-bold md:text-3xl">FAQ</h1>
             <div class="md:max-w-[954px] mx-auto grid grid-cols-1 divide-y">
 
@@ -389,7 +389,8 @@
                 </div>
 
             </div>
-        </div>
+        </section>
+
         <!-- singup -->
         <div class="flex flex-col items-center pl-4 pr-4 mt-[8rem] md:flex-row md:max-w-[954px] mx-auto ">
             <div class="md:text-left md:flex-1 md:text-xl mr-6 text-center">
@@ -419,11 +420,8 @@
             </form>
         </div>
         
-
-
-
         <!-- Footer -->
-        <footer class="md:max-w-[954px] mx-auto px-4 pb-10">
+        <footer class="md:max-w-[954px] mx-auto px-4 md:pb-10">
            <hr class="mt-8">
             <div class="items-center md:mb-20 flex flex-col md:flex-row">
 
@@ -475,10 +473,11 @@
 
             </div>
             <!-- Copywrite -->
-            <p class="hidden text-left md:block text-sm">
+            <p class="hidden text-left text-sm md:flex">
                 © 2021 Weware Co. Built with 💙 by
+                <img src="./assets/svg/ideaware-logo.svg" alt="navbarlogo" class="ml-2" />
             </p>
-            <img src="./assets/svg/ideaware-logo.svg" alt="navbarlogo" class="" />
+            
         </footer>
     </div>
 </body>
