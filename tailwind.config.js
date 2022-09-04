@@ -9,7 +9,8 @@ module.exports = {
       },
       fontFamily : {
         'handsofsean' : 'hands-of-sean',
-        'konnect' : 'konnect'
+        'konnect' : 'konnect',
+        'nunito' : 'nunito'
       }
     },
   },

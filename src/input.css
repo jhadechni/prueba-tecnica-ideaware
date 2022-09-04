@@ -11,7 +11,7 @@ body {
     height: 100%;
     color: #00004F;
     overflow-x: hidden;
-    font-family: konnect, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    font-family: nunito, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
         "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
         sans-serif;
 }
@@ -34,4 +34,15 @@ body {
     font-family: konnect;
     font-weight: bold;
     src: url('./fonts/KonnectBold.otf');
+}
+
+@font-face {
+    font-family: nunito;
+    src: url('./fonts/nunito.regular.ttf');
+}
+
+@font-face {
+    font-family: nunito;
+    font-weight: bold;
+    src: url('./fonts/nunito.bold.ttf');
 }
