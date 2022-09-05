@@ -619,6 +619,78 @@ video {
   right: 1rem;
 }
 
+.top-\[-10px\] {
+  top: -10px;
+}
+
+.top-\[20px\] {
+  top: 20px;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[-\] {
+  top: -;
+}
+
+.top-\[-50\] {
+  top: -50;
+}
+
+.top-\[-50px\] {
+  top: -50px;
+}
+
+.top-\[-40px\] {
+  top: -40px;
+}
+
+.-right-5 {
+  right: -1.25rem;
+}
+
+.top-\[-2rem\] {
+  top: -2rem;
+}
+
+.top-\[-20rem\] {
+  top: -20rem;
+}
+
+.top-\[20rem\] {
+  top: 20rem;
+}
+
+.-right-\[5\] {
+  right: -5;
+}
+
+.-right-\[2rem\] {
+  right: -2rem;
+}
+
+.-right-\[-2rem\] {
+  right: 2rem;
+}
+
+.-right-\[-3rem\] {
+  right: 3rem;
+}
+
+.top-\[-18rem\] {
+  top: -18rem;
+}
+
+.top-\[-19rem\] {
+  top: -19rem;
+}
+
+.left-\[-90px\] {
+  left: -90px;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -729,6 +801,18 @@ video {
   margin-left: 0.5rem;
 }
 
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[6rem\] {
+  margin-bottom: 6rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -811,10 +895,6 @@ video {
 
 .min-w-\[300px\] {
   min-width: 300px;
-}
-
-.max-w-\[550px\] {
-  max-width: 550px;
 }
 
 .max-w-\[600px\] {
@@ -1294,11 +1374,6 @@ body {
     margin: 0px;
   }
 
-  .md\:mx-12 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
   .md\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
@@ -1432,6 +1507,10 @@ body {
     line-height: 1.75rem;
   }
 
+  .md\:text-\[26px\] {
+    font-size: 26px;
+  }
+
   .md\:leading-10 {
     line-height: 2.5rem;
   }
@@ -1454,6 +1533,46 @@ body {
     left: -615px;
   }
 
+  .lg\:right-\[-500px\] {
+    right: -500px;
+  }
+
+  .lg\:right-\[-510px\] {
+    right: -510px;
+  }
+
+  .lg\:right-\[-530px\] {
+    right: -530px;
+  }
+
+  .lg\:-right-\[-33rem\] {
+    right: 33rem;
+  }
+
+  .lg\:top-\[6rem\] {
+    top: 6rem;
+  }
+
+  .lg\:-right-\[33rem\] {
+    right: -33rem;
+  }
+
+  .lg\:-top-\[90\] {
+    top: -90;
+  }
+
+  .lg\:-top-\[90px\] {
+    top: -90px;
+  }
+
+  .lg\:-top-\[40px\] {
+    top: -40px;
+  }
+
+  .lg\:-top-\[50px\] {
+    top: -50px;
+  }
+
   .lg\:m-0 {
     margin: 0px;
   }
@@ -1464,6 +1583,18 @@ body {
 
   .lg\:ml-auto {
     margin-left: auto;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:-mt-40 {
+    margin-top: -10rem;
+  }
+
+  .lg\:mt-60 {
+    margin-top: 15rem;
   }
 
   .lg\:block {
